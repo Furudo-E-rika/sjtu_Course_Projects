@@ -1,0 +1,33 @@
+
+import torch.nn as nn
+from torch.nn import functional as F
+
+class CNN_ROBUST(nn.Module):
+	def __init__(self, in_channel):
+		super().__init__()
+		self.layer1 = nn.Sequential(
+			nn.Conv2d(in_channel, 16, kernel_size=5, stride=1, padding=2), 
+			nn.BatchNorm2d(16),
+			nn.LeakyReLU(), 
+            nn.Dropout(0.5),
+			nn.MaxPool2d(kernel_size=2, stride=2)) 
+
+		self.layer2 = nn.Sequential(
+			nn.Conv2d(16, 32, kernel_size=5, stride=1, padding=2), 
+			nn.BatchNorm2d(32), 
+			nn.LeakyReLU(), 
+            nn.Dropout(0.5),
+			nn.MaxPool2d(kernel_size=2, stride=2)) 
+        
+        
+
+		self.fclayer = nn.Sequential(nn.Linear(7*7*32, 512),
+			) 
+
+	def forward(self, x):
+		h1 = self.layer1(x)
+		h2 = self.layer2(h1)
+		out = h2.reshape(h2.size(0), -1)
+
+		out = self.fclayer(out)
+		return out
