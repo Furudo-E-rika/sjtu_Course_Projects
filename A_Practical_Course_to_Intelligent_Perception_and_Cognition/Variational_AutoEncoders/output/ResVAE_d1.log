@@ -1,0 +1,562 @@
+Let's use cuda to train VAE model
+
+
+Epoch 0/50
+Train:
+====================
+Training Epoch 0
+Epoch Loss: 2998.27821796875, Epoch Kld Loss:41.98951123300393, Epoch Reconstruction Loss:2956.2887052734377
+Test:
+====================
+Test Epoch 0
+Epoch Loss: 2886.6405203125, Epoch Kld Loss:40.522087969970706, Epoch Reconstruction Loss:2846.11843671875
+
+
+Epoch 1/50
+Train:
+====================
+Training Epoch 1
+Epoch Loss: 2873.5190821940105, Epoch Kld Loss:45.591931197102866, Epoch Reconstruction Loss:2827.927152669271
+Test:
+====================
+Test Epoch 1
+Epoch Loss: 2822.893762109375, Epoch Kld Loss:51.055862567138675, Epoch Reconstruction Loss:2771.83790390625
+
+
+Epoch 2/50
+Train:
+====================
+Training Epoch 2
+Epoch Loss: 2833.4422186197917, Epoch Kld Loss:48.823596087646486, Epoch Reconstruction Loss:2784.618622200521
+Test:
+====================
+Test Epoch 2
+Epoch Loss: 2801.8337828125, Epoch Kld Loss:48.574644793701175, Epoch Reconstruction Loss:2753.25914140625
+
+
+Epoch 3/50
+Train:
+====================
+Training Epoch 3
+Epoch Loss: 2812.9490879557293, Epoch Kld Loss:50.06392724202474, Epoch Reconstruction Loss:2762.8851595377605
+Test:
+====================
+Test Epoch 3
+Epoch Loss: 2782.591585546875, Epoch Kld Loss:50.172590087890626, Epoch Reconstruction Loss:2732.418996484375
+
+
+Epoch 4/50
+Train:
+====================
+Training Epoch 4
+Epoch Loss: 2802.01368125, Epoch Kld Loss:51.17890912882487, Epoch Reconstruction Loss:2750.8347716796875
+Test:
+====================
+Test Epoch 4
+Epoch Loss: 2781.505061328125, Epoch Kld Loss:48.298317309570315, Epoch Reconstruction Loss:2733.20675
+
+
+Epoch 5/50
+Train:
+====================
+Training Epoch 5
+Epoch Loss: 2791.2099609375, Epoch Kld Loss:52.132503835042314, Epoch Reconstruction Loss:2739.0774573893227
+Test:
+====================
+Test Epoch 5
+Epoch Loss: 2769.949695703125, Epoch Kld Loss:54.55383585205078, Epoch Reconstruction Loss:2715.3958578125
+
+
+Epoch 6/50
+Train:
+====================
+Training Epoch 6
+Epoch Loss: 2782.5057545247396, Epoch Kld Loss:53.10511073404948, Epoch Reconstruction Loss:2729.400641373698
+Test:
+====================
+Test Epoch 6
+Epoch Loss: 2765.289558984375, Epoch Kld Loss:55.14249163208008, Epoch Reconstruction Loss:2710.147065234375
+
+
+Epoch 7/50
+Train:
+====================
+Training Epoch 7
+Epoch Loss: 2775.6099885091144, Epoch Kld Loss:53.86903060302734, Epoch Reconstruction Loss:2721.7409580078124
+Test:
+====================
+Test Epoch 7
+Epoch Loss: 2759.21551484375, Epoch Kld Loss:53.14087316894531, Epoch Reconstruction Loss:2706.0746453125
+
+
+Epoch 8/50
+Train:
+====================
+Training Epoch 8
+Epoch Loss: 2769.200880859375, Epoch Kld Loss:54.543555267333986, Epoch Reconstruction Loss:2714.6573259765623
+Test:
+====================
+Test Epoch 8
+Epoch Loss: 2754.8214171875, Epoch Kld Loss:53.657110595703124, Epoch Reconstruction Loss:2701.164301953125
+
+
+Epoch 9/50
+Train:
+====================
+Training Epoch 9
+Epoch Loss: 2762.6412850260417, Epoch Kld Loss:55.25880439453125, Epoch Reconstruction Loss:2707.382480761719
+Test:
+====================
+Test Epoch 9
+Epoch Loss: 2753.1529796875, Epoch Kld Loss:55.49176149902344, Epoch Reconstruction Loss:2697.661219921875
+
+
+Epoch 10/50
+Train:
+====================
+Training Epoch 10
+Epoch Loss: 2758.102780045573, Epoch Kld Loss:56.0765928334554, Epoch Reconstruction Loss:2702.0261852213544
+Test:
+====================
+Test Epoch 10
+Epoch Loss: 2769.903908203125, Epoch Kld Loss:53.742383166503906, Epoch Reconstruction Loss:2716.161526953125
+
+
+Epoch 11/50
+Train:
+====================
+Training Epoch 11
+Epoch Loss: 2753.919509472656, Epoch Kld Loss:56.70231636352539, Epoch Reconstruction Loss:2697.2171918619792
+Test:
+====================
+Test Epoch 11
+Epoch Loss: 2749.284831640625, Epoch Kld Loss:54.51359204101563, Epoch Reconstruction Loss:2694.771237109375
+
+
+Epoch 12/50
+Train:
+====================
+Training Epoch 12
+Epoch Loss: 2749.401040299479, Epoch Kld Loss:56.811131397501626, Epoch Reconstruction Loss:2692.5899076171877
+Test:
+====================
+Test Epoch 12
+Epoch Loss: 2758.943225390625, Epoch Kld Loss:51.661748681640624, Epoch Reconstruction Loss:2707.281480859375
+
+
+Epoch 13/50
+Train:
+====================
+Training Epoch 13
+Epoch Loss: 2745.4320070638023, Epoch Kld Loss:57.29875934346517, Epoch Reconstruction Loss:2688.1332465820315
+Test:
+====================
+Test Epoch 13
+Epoch Loss: 2740.438709375, Epoch Kld Loss:57.56725447998047, Epoch Reconstruction Loss:2682.87145234375
+
+
+Epoch 14/50
+Train:
+====================
+Training Epoch 14
+Epoch Loss: 2743.80194765625, Epoch Kld Loss:57.97359189961751, Epoch Reconstruction Loss:2685.828354296875
+Test:
+====================
+Test Epoch 14
+Epoch Loss: 2738.2670140625, Epoch Kld Loss:56.27897771606445, Epoch Reconstruction Loss:2681.98803046875
+
+
+Epoch 15/50
+Train:
+====================
+Training Epoch 15
+Epoch Loss: 2740.629837044271, Epoch Kld Loss:58.11205049743652, Epoch Reconstruction Loss:2682.5177865559895
+Test:
+====================
+Test Epoch 15
+Epoch Loss: 2742.100294140625, Epoch Kld Loss:57.75456486206055, Epoch Reconstruction Loss:2684.345726171875
+
+
+Epoch 16/50
+Train:
+====================
+Training Epoch 16
+Epoch Loss: 2737.684066341146, Epoch Kld Loss:58.69268957824707, Epoch Reconstruction Loss:2678.9913752929688
+Test:
+====================
+Test Epoch 16
+Epoch Loss: 2731.390537109375, Epoch Kld Loss:58.43782732543945, Epoch Reconstruction Loss:2672.952707421875
+
+
+Epoch 17/50
+Train:
+====================
+Training Epoch 17
+Epoch Loss: 2734.8337694010415, Epoch Kld Loss:58.82141584981282, Epoch Reconstruction Loss:2676.012354752604
+Test:
+====================
+Test Epoch 17
+Epoch Loss: 2733.220577734375, Epoch Kld Loss:59.41229024047851, Epoch Reconstruction Loss:2673.808290625
+
+
+Epoch 18/50
+Train:
+====================
+Training Epoch 18
+Epoch Loss: 2731.776543489583, Epoch Kld Loss:59.62646672566732, Epoch Reconstruction Loss:2672.1500779947914
+Test:
+====================
+Test Epoch 18
+Epoch Loss: 2734.9584234375, Epoch Kld Loss:60.05137645263672, Epoch Reconstruction Loss:2674.907042578125
+
+
+Epoch 19/50
+Train:
+====================
+Training Epoch 19
+Epoch Loss: 2730.2511548828124, Epoch Kld Loss:59.93775389099121, Epoch Reconstruction Loss:2670.313402994792
+Test:
+====================
+Test Epoch 19
+Epoch Loss: 2735.567848046875, Epoch Kld Loss:57.57224105224609, Epoch Reconstruction Loss:2677.995601171875
+
+
+Epoch 20/50
+Train:
+====================
+Training Epoch 20
+Epoch Loss: 2727.215823046875, Epoch Kld Loss:60.018984673055016, Epoch Reconstruction Loss:2667.1968389322915
+Test:
+====================
+Test Epoch 20
+Epoch Loss: 2734.43071328125, Epoch Kld Loss:61.198927606201174, Epoch Reconstruction Loss:2673.231784765625
+
+
+Epoch 21/50
+Train:
+====================
+Training Epoch 21
+Epoch Loss: 2727.2151921875, Epoch Kld Loss:59.95533787638346, Epoch Reconstruction Loss:2667.2598545898436
+Test:
+====================
+Test Epoch 21
+Epoch Loss: 2736.641767578125, Epoch Kld Loss:60.79809178466797, Epoch Reconstruction Loss:2675.8436765625
+
+
+Epoch 22/50
+Train:
+====================
+Training Epoch 22
+Epoch Loss: 2724.523301236979, Epoch Kld Loss:60.61103050435384, Epoch Reconstruction Loss:2663.9122688476564
+Test:
+====================
+Test Epoch 22
+Epoch Loss: 2728.652142578125, Epoch Kld Loss:61.51263463134766, Epoch Reconstruction Loss:2667.139504296875
+
+
+Epoch 23/50
+Train:
+====================
+Training Epoch 23
+Epoch Loss: 2720.766251269531, Epoch Kld Loss:60.37274735107422, Epoch Reconstruction Loss:2660.3935043294273
+Test:
+====================
+Test Epoch 23
+Epoch Loss: 2739.127614453125, Epoch Kld Loss:58.873024578857425, Epoch Reconstruction Loss:2680.25459453125
+
+
+Epoch 24/50
+Train:
+====================
+Training Epoch 24
+Epoch Loss: 2720.2071193684897, Epoch Kld Loss:60.87888790079752, Epoch Reconstruction Loss:2659.328230924479
+Test:
+====================
+Test Epoch 24
+Epoch Loss: 2728.068301953125, Epoch Kld Loss:63.0420246887207, Epoch Reconstruction Loss:2665.026277734375
+
+
+Epoch 25/50
+Train:
+====================
+Training Epoch 25
+Epoch Loss: 2718.501087955729, Epoch Kld Loss:60.889541544596355, Epoch Reconstruction Loss:2657.611546419271
+Test:
+====================
+Test Epoch 25
+Epoch Loss: 2730.458433984375, Epoch Kld Loss:60.54698828125, Epoch Reconstruction Loss:2669.911445703125
+
+
+Epoch 26/50
+Train:
+====================
+Training Epoch 26
+Epoch Loss: 2716.6327400390624, Epoch Kld Loss:61.445403103637695, Epoch Reconstruction Loss:2655.187337174479
+Test:
+====================
+Test Epoch 26
+Epoch Loss: 2729.93763125, Epoch Kld Loss:59.75698420410156, Epoch Reconstruction Loss:2670.1806439453126
+
+
+Epoch 27/50
+Train:
+====================
+Training Epoch 27
+Epoch Loss: 2715.55591796875, Epoch Kld Loss:61.54932008768717, Epoch Reconstruction Loss:2654.006596419271
+Test:
+====================
+Test Epoch 27
+Epoch Loss: 2732.373476171875, Epoch Kld Loss:58.0004462097168, Epoch Reconstruction Loss:2674.373035546875
+
+
+Epoch 28/50
+Train:
+====================
+Training Epoch 28
+Epoch Loss: 2715.6487227539064, Epoch Kld Loss:61.76615633646647, Epoch Reconstruction Loss:2653.8825678385415
+Test:
+====================
+Test Epoch 28
+Epoch Loss: 2720.350930859375, Epoch Kld Loss:61.90187367553711, Epoch Reconstruction Loss:2658.4490556640626
+
+
+Epoch 29/50
+Train:
+====================
+Training Epoch 29
+Epoch Loss: 2714.174321809896, Epoch Kld Loss:61.749797977701824, Epoch Reconstruction Loss:2652.42452249349
+Test:
+====================
+Test Epoch 29
+Epoch Loss: 2724.90114921875, Epoch Kld Loss:58.75674344482422, Epoch Reconstruction Loss:2666.14440625
+
+
+Epoch 30/50
+Train:
+====================
+Training Epoch 30
+Epoch Loss: 2711.585106998698, Epoch Kld Loss:62.1606620107015, Epoch Reconstruction Loss:2649.4244459635415
+Test:
+====================
+Test Epoch 30
+Epoch Loss: 2717.07648046875, Epoch Kld Loss:62.13349263916015, Epoch Reconstruction Loss:2654.942987109375
+
+
+Epoch 31/50
+Train:
+====================
+Training Epoch 31
+Epoch Loss: 2710.3266755533855, Epoch Kld Loss:61.97886895751953, Epoch Reconstruction Loss:2648.3478075520834
+Test:
+====================
+Test Epoch 31
+Epoch Loss: 2723.921080859375, Epoch Kld Loss:62.5280169921875, Epoch Reconstruction Loss:2661.3930640625
+
+
+Epoch 32/50
+Train:
+====================
+Training Epoch 32
+Epoch Loss: 2709.654138020833, Epoch Kld Loss:62.257078197224935, Epoch Reconstruction Loss:2647.3970613932293
+Test:
+====================
+Test Epoch 32
+Epoch Loss: 2732.360958203125, Epoch Kld Loss:59.764811193847656, Epoch Reconstruction Loss:2672.59614609375
+
+
+Epoch 33/50
+Train:
+====================
+Training Epoch 33
+Epoch Loss: 2707.955541048177, Epoch Kld Loss:62.67008433939616, Epoch Reconstruction Loss:2645.285455891927
+Test:
+====================
+Test Epoch 33
+Epoch Loss: 2718.982458984375, Epoch Kld Loss:62.11309724121094, Epoch Reconstruction Loss:2656.869363671875
+
+
+Epoch 34/50
+Train:
+====================
+Training Epoch 34
+Epoch Loss: 2707.4343736653645, Epoch Kld Loss:62.430523667399086, Epoch Reconstruction Loss:2645.003848795573
+Test:
+====================
+Test Epoch 34
+Epoch Loss: 2715.58959140625, Epoch Kld Loss:64.20875149536133, Epoch Reconstruction Loss:2651.380844921875
+
+
+Epoch 35/50
+Train:
+====================
+Training Epoch 35
+Epoch Loss: 2707.464586816406, Epoch Kld Loss:62.91002187093099, Epoch Reconstruction Loss:2644.5545661132815
+Test:
+====================
+Test Epoch 35
+Epoch Loss: 2712.8131203125, Epoch Kld Loss:61.23249535522461, Epoch Reconstruction Loss:2651.5806248046874
+
+
+Epoch 36/50
+Train:
+====================
+Training Epoch 36
+Epoch Loss: 2706.2547774088544, Epoch Kld Loss:62.70710432942708, Epoch Reconstruction Loss:2643.547672526042
+Test:
+====================
+Test Epoch 36
+Epoch Loss: 2712.302934375, Epoch Kld Loss:63.430695751953124, Epoch Reconstruction Loss:2648.872237890625
+
+
+Epoch 37/50
+Train:
+====================
+Training Epoch 37
+Epoch Loss: 2703.9317439778647, Epoch Kld Loss:62.713005420939126, Epoch Reconstruction Loss:2641.2187382486977
+Test:
+====================
+Test Epoch 37
+Epoch Loss: 2719.029083203125, Epoch Kld Loss:62.539414318847655, Epoch Reconstruction Loss:2656.48966796875
+
+
+Epoch 38/50
+Train:
+====================
+Training Epoch 38
+Epoch Loss: 2706.4387029296877, Epoch Kld Loss:63.104169639078776, Epoch Reconstruction Loss:2643.334532682292
+Test:
+====================
+Test Epoch 38
+Epoch Loss: 2717.027746484375, Epoch Kld Loss:63.379020959472655, Epoch Reconstruction Loss:2653.648726953125
+
+
+Epoch 39/50
+Train:
+====================
+Training Epoch 39
+Epoch Loss: 2704.6433998372395, Epoch Kld Loss:63.244243855794274, Epoch Reconstruction Loss:2641.3991552083335
+Test:
+====================
+Test Epoch 39
+Epoch Loss: 2716.980123046875, Epoch Kld Loss:60.81623781738281, Epoch Reconstruction Loss:2656.163879296875
+
+
+Epoch 40/50
+Train:
+====================
+Training Epoch 40
+Epoch Loss: 2704.634959667969, Epoch Kld Loss:63.5282902557373, Epoch Reconstruction Loss:2641.1066681640623
+Test:
+====================
+Test Epoch 40
+Epoch Loss: 2710.508661328125, Epoch Kld Loss:64.57973693847656, Epoch Reconstruction Loss:2645.928928515625
+
+
+Epoch 41/50
+Train:
+====================
+Training Epoch 41
+Epoch Loss: 2702.0919331705727, Epoch Kld Loss:63.33059802856445, Epoch Reconstruction Loss:2638.761335579427
+Test:
+====================
+Test Epoch 41
+Epoch Loss: 2715.25353515625, Epoch Kld Loss:61.44272733154297, Epoch Reconstruction Loss:2653.8108046875
+
+
+Epoch 42/50
+Train:
+====================
+Training Epoch 42
+Epoch Loss: 2703.301700878906, Epoch Kld Loss:63.49981104634603, Epoch Reconstruction Loss:2639.8018899414064
+Test:
+====================
+Test Epoch 42
+Epoch Loss: 2712.8074171875, Epoch Kld Loss:63.031113720703125, Epoch Reconstruction Loss:2649.7763
+
+
+Epoch 43/50
+Train:
+====================
+Training Epoch 43
+Epoch Loss: 2703.4312517578123, Epoch Kld Loss:63.547969141642255, Epoch Reconstruction Loss:2639.883281998698
+Test:
+====================
+Test Epoch 43
+Epoch Loss: 2722.63810234375, Epoch Kld Loss:64.52964426879883, Epoch Reconstruction Loss:2658.1084564453126
+
+
+Epoch 44/50
+Train:
+====================
+Training Epoch 44
+Epoch Loss: 2701.158449609375, Epoch Kld Loss:63.55070477498372, Epoch Reconstruction Loss:2637.607745019531
+Test:
+====================
+Test Epoch 44
+Epoch Loss: 2716.135509375, Epoch Kld Loss:66.27412640991211, Epoch Reconstruction Loss:2649.861383984375
+
+
+Epoch 45/50
+Train:
+====================
+Training Epoch 45
+Epoch Loss: 2699.602308984375, Epoch Kld Loss:63.28775970967611, Epoch Reconstruction Loss:2636.3145493815105
+Test:
+====================
+Test Epoch 45
+Epoch Loss: 2731.37243203125, Epoch Kld Loss:63.419804296875, Epoch Reconstruction Loss:2667.9526306640623
+
+
+Epoch 46/50
+Train:
+====================
+Training Epoch 46
+Epoch Loss: 2701.075565332031, Epoch Kld Loss:63.597845982869465, Epoch Reconstruction Loss:2637.4777193684895
+Test:
+====================
+Test Epoch 46
+Epoch Loss: 2715.4865078125, Epoch Kld Loss:63.626219610595705, Epoch Reconstruction Loss:2651.860283203125
+
+
+Epoch 47/50
+Train:
+====================
+Training Epoch 47
+Epoch Loss: 2700.152653450521, Epoch Kld Loss:63.88181087341309, Epoch Reconstruction Loss:2636.2708444335935
+Test:
+====================
+Test Epoch 47
+Epoch Loss: 2725.45094375, Epoch Kld Loss:65.63240964355468, Epoch Reconstruction Loss:2659.818530078125
+
+
+Epoch 48/50
+Train:
+====================
+Training Epoch 48
+Epoch Loss: 2699.053853548177, Epoch Kld Loss:63.77251042989095, Epoch Reconstruction Loss:2635.2813425130207
+Test:
+====================
+Test Epoch 48
+Epoch Loss: 2713.6602375, Epoch Kld Loss:63.794455139160156, Epoch Reconstruction Loss:2649.8657765625
+
+
+Epoch 49/50
+Train:
+====================
+Training Epoch 49
+Epoch Loss: 2698.149283561198, Epoch Kld Loss:64.18684423624674, Epoch Reconstruction Loss:2633.962439453125
+Test:
+====================
+Test Epoch 49
+Epoch Loss: 2719.215993359375, Epoch Kld Loss:64.81927691650391, Epoch Reconstruction Loss:2654.3967173828123
+
+
+Epoch 50/50
+Train:
+====================
+Training Epoch 50
+Epoch Loss: 2698.03708671875, Epoch Kld Loss:63.66107929178874, Epoch Reconstruction Loss:2634.3760083984375
+Test:
+====================
+Test Epoch 50
+Epoch Loss: 2710.069304296875, Epoch Kld Loss:64.52156510620117, Epoch Reconstruction Loss:2645.5477408203124

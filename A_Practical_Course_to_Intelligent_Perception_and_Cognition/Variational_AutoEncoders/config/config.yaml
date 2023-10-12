@@ -1,0 +1,38 @@
+
+check_dir: "./checkpoint"
+log_dir: "./logdir"
+dataloader_batch : 16
+seed: 146
+
+train:
+  epoch: 51
+  input_dim: 1
+  output_dim: 1
+  encoder_list: [512, 256, 128] ## hidden dim for mlp_Vae
+  decoder_list: [128, 256, 512] ## hidden dim for mlp_Vae
+  model: 'conv_vae' #  please choose from ['simple_vae', 'mlp_vae', 'conv_vae', 'res_vae']
+  z_dim: 2  # the dimension of latent vector z. please choose from int 1 and 2.
+  optimizer: 'Adam'
+  SaveEpoch: 5
+
+  optimAdam:
+    learningRate: 0.001
+    weightDecay: 0
+
+  optimSGD:
+    learningRate: 1e-3
+    weightDecay: 5e-4
+    momentum: 0.9
+
+
+visual:
+  input_dim: 1
+  output_dim: 1
+  encoder_list: [512, 256, 128]
+  decoder_list: [128, 256, 512]
+  model: 'conv_vae' #  please choose from ['simple_vae', 'mlp_vae', 'conv_vae', 'res_vae']
+  z_dim: 2
+  checkpoint: "/lustre/home/acct-stu/stu146/Variational_AutoEncoders/checkpoint/checkpoint-epoch-0050.pth"
+  range_low: -5
+  range_high: 5
+  step: 0.05

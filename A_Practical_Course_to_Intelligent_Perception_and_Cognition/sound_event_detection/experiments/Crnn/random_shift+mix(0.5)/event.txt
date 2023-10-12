@@ -1,0 +1,48 @@
+Event based metrics (onset-offset)
+========================================
+  Evaluated length                  : 7543.56 sec
+  Evaluated files                   : 834 
+  Evaluate onset                    : True 
+  Evaluate offset                   : True 
+  T collar                          : 200.00 ms
+  Offset (length)                   : 20.00 %
+
+  Overall metrics (micro-average)
+  ======================================
+  F-measure
+    F-measure (F1)                  : 8.94 %
+    Precision                       : 8.27 %
+    Recall                          : 9.71 %
+  Error rate
+    Error rate (ER)                 : 1.96 
+    Substitution rate               : 0.01 
+    Deletion rate                   : 0.89 
+    Insertion rate                  : 1.06 
+
+  Class-wise average metrics (macro-average)
+  ======================================
+  F-measure
+    F-measure (F1)                  : 9.71 %
+    Precision                       : 7.99 %
+    Recall                          : 16.57 %
+  Error rate
+    Error rate (ER)                 : 3.20 
+    Deletion rate                   : 0.83 
+    Insertion rate                  : 2.36 
+  
+
+  Class-wise metrics
+  ======================================
+    Event label  | Nref    Nsys  | F        Pre      Rec    | ER       Del      Ins    |
+    ------------ | -----   ----- | ------   ------   ------ | ------   ------   ------ |
+    Frying       | 67      449   | 6.6%     3.8%     25.4%  | 7.19     0.75     6.45   |
+    Dog          | 450     368   | 1.2%     1.4%     1.1%   | 1.80     0.99     0.81   |
+    Cat          | 243     192   | 4.1%     4.7%     3.7%   | 1.72     0.96     0.75   |
+    Vacuum_cle.. | 56      244   | 6.7%     4.1%     17.9%  | 5.00     0.82     4.18   |
+    Dishes       | 370     485   | 1.9%     1.6%     2.2%   | 2.27     0.98     1.29   |
+    Running_wa.. | 154     323   | 11.3%    8.4%     17.5%  | 2.75     0.82     1.92   |
+    Alarm_bell.. | 306     378   | 36.0%    32.5%    40.2%  | 1.43     0.60     0.83   |
+    Blender      | 56      249   | 11.1%    6.8%     30.4%  | 4.84     0.70     4.14   |
+    Electric_s.. | 37      107   | 11.1%    7.5%     21.6%  | 3.46     0.78     2.68   |
+    Speech       | 1401    892   | 7.1%     9.1%     5.8%   | 1.52     0.94     0.58   |
+

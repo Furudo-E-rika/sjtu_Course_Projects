@@ -1,0 +1,28 @@
+data:
+    feature: data/dev/feature.csv
+    label: data/dev/label.csv
+    class_indice_file: data/metadata/class_label_indices.txt
+    augmentation_list: ['mix_audio', 'add_uniform_noise', 'add_gaussian_noise', 'time_shift', 'time_mask']
+    augment_type: 'random'
+    augment_ratio: 1.0  # The ratio of the amount of augmented data to the amount of original data
+    audio_mix_ratio: 0.8
+    stratified: True
+
+dataloader_args:
+    batch_size: 64
+    num_workers: 1
+
+optimizer:
+    type: AdamW
+    args:
+        lr: 0.001
+
+epochs: 100
+model:
+    type: Crnn
+    hidden_size: 128
+    channel_list: [1, 16, 32, 64, 128, 128]
+    kernel_list: [2, 2, 1, 1, 1]
+
+outputpath: experiments/
+
